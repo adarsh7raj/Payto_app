@@ -10,7 +10,7 @@ export const Users = () => {
     const [value,setvalue]=useState("");
     useEffect(() => {
         const token = localStorage.getItem('token'); 
-        axios.get(`http://localhost:3000/api/v1/user/users?find=${value}`, {
+        axios.get(`https://payto-app-1.onrender.com/api/v1/user/users?find=${value}`, {
             headers: {
                 'Authorization': token
             }

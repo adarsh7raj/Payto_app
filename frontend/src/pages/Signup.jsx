@@ -52,7 +52,7 @@ export const Signup = () => {
             label={"Password"} 
           />
           <div className="pt-4">
-          <Button onClick={()=>{axios.post("http://localhost:3000/api/v1/user/signup",{
+          <Button onClick={()=>{axios.post("https://payto-app-1.onrender.com/api/v1/user/signup",{
             username:userName,
             firstname:firstName,
             lastname:lastName,

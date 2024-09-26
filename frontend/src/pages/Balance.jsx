@@ -5,7 +5,7 @@ export const Balance = function(){
     const [balance,setbalance]=useState();
 useEffect(function(){
     try{
-        const value=axios.get("http://localhost:3000/api/v1/account/balance",{headers:{  'Authorization':localStorage.getItem("token")}});
+        const value=axios.get("https://payto-app-1.onrender.com/api/v1/account/balance",{headers:{  'Authorization':localStorage.getItem("token")}});
         value.then(function(amount){
             console.log(amount.data.balance);
             setbalance(amount.data.balance);

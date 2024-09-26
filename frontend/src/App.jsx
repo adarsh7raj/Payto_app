@@ -5,7 +5,7 @@ import {Dashboard} from "./pages/Dashboard";
 import {SendMoney} from "./pages/SendMoney";
 import {Success} from "./pages/Success.jsx"
 import { LandingPage } from "./pages/landing_page.jsx";
-import { Balance } from "./components/Balance.jsx";
+import { Balance } from "./pages/Balance.jsx";
 
 
 

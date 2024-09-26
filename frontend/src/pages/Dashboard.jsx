@@ -1,5 +1,5 @@
 import { Appbar } from "../components/AppBar";
-import { Balance } from "../components/Balance";
+import { Balance } from "./Balance";
 import { Users } from "../components/Users";
 import { useNavigate } from "react-router-dom";
 export const Dashboard=function(){
